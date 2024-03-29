@@ -33,3 +33,8 @@ cd rust-lib-01
 └── src
     └── lib.rs
 ```
+
+## GitHub Actions
+
+* **Settings > Actions > General** 
+* ** > Workflow Permissions > Read and write permissions**
