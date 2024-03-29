@@ -15,7 +15,10 @@ lint:
 test:
 	cargo test --quiet
 
+build:
+	cargo build --quiet
+
 release:
 	cargo build --release
 
-all: format lint test release
+all: format lint test build
