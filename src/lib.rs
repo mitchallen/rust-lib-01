@@ -26,6 +26,17 @@ pub fn sub(left: usize, right: usize) -> usize {
     left - right
 }
 
+/// Returns a random boolean
+///
+/// This function will return a random boolean
+///
+/// ```
+/// let result = rust_lib_01::flip();
+/// ```
+pub fn flip() -> bool {
+    rand::random()
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -40,5 +51,11 @@ mod tests {
     fn should_sub() {
         let result = sub(6, 5);
         assert_eq!(result, 1);
+    }
+
+    #[test]
+    fn should_flip() {
+        let _result = flip();
+        // assert_eq!(result, true);
     }
 }
