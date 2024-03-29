@@ -12,7 +12,7 @@ cargo test
 ### Need to update TOML too!
 
 ```sh
-git tag v0.1.0
+git tag v0.1.2
 ```
 
 ```sh
