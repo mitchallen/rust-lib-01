@@ -7,6 +7,18 @@ rust-lib-01
 cargo test
 ```
 
+## Tag
+
+### Need to update TOML too!
+
+```sh
+git tag v0.1.0
+```
+
+```sh
+git push origin main --tags
+```
+
 ## How this project was initialized
 
 ```sh

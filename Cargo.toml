@@ -2,6 +2,9 @@
 name = "rust-lib-01"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
+author = "Mitch Allen"
+respository = "https://github.com/mitchallen/rust-lib-01.git"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
